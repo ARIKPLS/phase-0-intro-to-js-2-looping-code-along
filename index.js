@@ -1,5 +1,5 @@
 // Code your solutions in this file
- function writeCards( names, event ) {
+function writeCards( names, event ) {
   let giftCards = []
   for ( let i = 0; i < names.length; i++ ) {
     giftCards.push( `Thank you, ${names[i]}, for the wonderful ${event} gift!` )
